@@ -19,7 +19,7 @@ namespace ND
         public static void TestBrowser(string expectedResult)
         {
             IWebDriver driver = new ChromeDriver();
-            IWebDriver driver = new FirefoxDriver();
+            //IWebDriver driver = new FirefoxDriver();
             driver.Url = "https://developers.whatismybrowser.com/useragents/parse/?analyse-my-user-agent=yes#parse-useragent";
             Thread.Sleep(2000);
 

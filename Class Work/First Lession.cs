@@ -9,7 +9,7 @@ namespace Class_Work
 {
     internal class First_Lession
     {
-        private static object currentTime;
+        private static readonly object currentTime;
 
         // 4 yra lyginis skaicius
         // dabar yra 19 valanda
